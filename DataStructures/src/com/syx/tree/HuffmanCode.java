@@ -22,8 +22,8 @@ public class HuffmanCode {
         System.out.println("压缩后的结果是:" + Arrays.toString(huffmanCodesBytes) + " 长度= " + huffmanCodesBytes.length);
 */
 //        测试压缩文件
-        String srcFile = "d://2021//122.mp4";
-        String dstFile = "d://2021//ok.zip";
+        String srcFile = "d://2021//11.txt";
+        String dstFile = "d://2021//ok1.zip";
 
         zipFile(srcFile, dstFile);
         System.out.println("压缩文件ok~~");
